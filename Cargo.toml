@@ -1,0 +1,19 @@
+[package]
+name = "hacke-rs"
+description = "Command line tool for displaying a random line from the 1995 classic, Hackers."
+readme = "README.md"
+version = "0.1.0"
+authors = ["PsypherPunk <psypherpunk+github@gmail.com>"]
+edition = "2021"
+license = "BSD-3-Clause"
+
+[profile.release]
+codegen-units = 1
+lto = true
+opt-level = "z"
+panic = "abort"
+strip = true
+
+[dependencies]
+argh = "0.1.12"
+rand = "0.8.5"
