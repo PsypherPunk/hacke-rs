@@ -11,7 +11,7 @@ I'll hack the Gibson.
 Or, more importantly:
 
 ```sh
-❯ ./target/release/hacke-rs | cowsay 
+❯ ./hacke-rs | cowsay 
  ____________________
 / DADE Yeah. RISC is \
 \ good.            /
@@ -26,5 +26,5 @@ Or, more importantly:
 The text from the script has been derived from the contents of the
 [`hackers.h`](https://github.com/cyphar/devgibson/blob/master/scripts/hackers.h)
 file, within the
-[`cyphar/devgibson`](https://github.com/cyphar/devgibson/blob/master/scripts/hackers.h)
+[`cyphar/devgibson`](https://github.com/cyphar/devgibson)
 project.
