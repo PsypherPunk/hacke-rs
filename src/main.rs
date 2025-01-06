@@ -16,7 +16,7 @@ struct Args {
 fn main() {
     let args: Args = argh::from_env();
     if args.version {
-        println!("{}", VERSION);
+        println!("{VERSION}");
     } else {
         let choice: &ScriptLine = crate::HACKERS
             .choose(&mut thread_rng())
