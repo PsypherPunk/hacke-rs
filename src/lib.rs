@@ -4,7 +4,7 @@ pub struct ScriptLine {
 }
 
 #[allow(clippy::needless_raw_string_hashes)]
-pub const HACKERS: [ScriptLine; 740] = [
+pub static HACKERS: [ScriptLine; 740] = [
     ScriptLine {
         character: r##"WOMAN"##,
         line: r##"Oough! Ahhh!"##,

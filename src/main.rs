@@ -1,7 +1,7 @@
 use argh::FromArgs;
 use hacke_rs::{ScriptLine, HACKERS};
-use rand::seq::SliceRandom;
-use rand::thread_rng;
+use rand::rng;
+use rand::seq::IndexedRandom;
 
 const VERSION: &str = env!("CARGO_PKG_VERSION");
 
@@ -19,7 +19,7 @@ fn main() {
         println!("{VERSION}");
     } else {
         let choice: &ScriptLine = crate::HACKERS
-            .choose(&mut thread_rng())
+            .choose(&mut rng())
             .expect("Oh man. That's universally stupid, man!");
 
         println!(
