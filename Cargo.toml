@@ -15,5 +15,5 @@ panic = "abort"
 strip = true
 
 [dependencies]
-argh = "0.1.14"
+argh = "0.1.17"
 rand = "0.10.0"
