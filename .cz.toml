@@ -1,5 +1,5 @@
 [tool.commitizen]
-version = "0.2.10"
+version = "0.2.11"
 version_files = [
     "Cargo.toml:^version",
 ]
