@@ -16,4 +16,4 @@ strip = true
 
 [dependencies]
 argh = "0.1.19"
-rand = "0.10.0"
+rand = "0.10.1"
